@@ -9,6 +9,9 @@ Host: beta.ditio.org
 GET /assets/index-D_8Bc5vn.js HTTP/1.1
 Host: beta.ditio.org
 
+GET /quote HTTP/1.1
+Host: http://localhost:8080
+
 # Send a POST request to OsloMet (example form submission)
 POST / HTTP/1.1
 Host: www.oslomet.no

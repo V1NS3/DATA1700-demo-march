@@ -10,6 +10,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class SomeController {
     @GetMapping("/quote")
     public Map<String, String> someEndpoint() {
-        return Map.of("Quote", "Some wise words");
+        return Map.of(
+        "Quote 1", "If we go for what’s somewhat safe here, it’ll mean we never changed. - Sugawara Koushi",
+        "Quote 2", "Aura, Kill Yourself - Frieren",
+        "Quote 3", "Opportunities present themselves to those who have prepared - Tashiro Hidemi");
     }
 }
